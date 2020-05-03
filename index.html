@@ -23,7 +23,19 @@
               <div class="stackable grid">
                 <div class="sixteen wide column">
                   <h1 class="name">Dmytro Horiak</h1>
-                  <div class="job">Unemployed. I`m learning something new right now.</div>
+                  <div class="job">Unemployed.
+                    <span class="age">
+                      <script type="text/javascript">
+                        var today = new Date();
+                        var birthDate = new Date("1998-08-20");
+                        var age = today.getFullYear() - birthDate.getFullYear();
+                        var m = today.getMonth() - birthDate.getMonth();
+                        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                          age--;
+                        }
+                        document.write(age);
+                      </script> years old (20 august 1998)</span>.
+                  </div>
                   <ul class="contacts">
                     <li>
                       <a href="https://www.facebook.com/horiak.dmytro" rel="author" class="facebook">
@@ -90,7 +102,8 @@
                 <div class="sixteen wide column">
                   <h2>Résumé</h2>
                   <p>&mdash; Hello! I'm pretty focused person, but I am still learning how to set priorities for the
-                    task. I like when tasks are put in front of me new challenges, and getting this desired result after hours I
+                    task. I like when tasks are put in front of me new challenges, and getting this desired result after
+                    hours I
                     always get satisfaction. As always, any job should bring at least a little fun, otherwise it can get
                     tired over time.</p>
                 </div>
@@ -104,17 +117,119 @@
           </div>
           <div class="row">
             <div class="ten wide column">
-              <!-- Experience -->
+              <h3>Experience</h3>
+              <ul class="timeline">
+                <li class="highlighted">
+                  <p><em>2 May 2020 – present</em></p>
+                  <p><strong>2 stage selection</strong> at <strong><a href="https://academy.binary-studio.com/"
+                        rel="external">Binary Studio Academy</a></strong></p>
+                </li>
+                <li>
+                  <p><em>May 2019</em></p>
+                  <p>Held a <i>1-month</i> practicing at the company <strong>LinkUp Studio</strong>.
+                    At the end of practice I got to know more about the responsive layout of
+                    websites <i>(flex-box, grid)</i> using the <strong>ReactJs</strong> library <i>(and some other
+                      usefull
+                      stuff like webpack, babel, or how to switch project to work with custom style scss, and
+                      typescript files instead of .jsx by default)</i> and how to work with API <i>(axios)</i>. This
+                    project also posted on my github <strong><a href="https://github.com/dimagoryak/frontend_null "
+                        rel="external">repo</a></strong></p>
+                </li>
+                <li>
+                  <p><em>April 2018</em></p>
+                  <p>At <strong>SolidBrain</strong>, I completed a <i>1-month</i> duration of practicing.
+                    Specialization of the company include sectors such as: Software Delivery, Mobile Applications,
+                    Software Developers,
+                    Business Analysts and Quality Assurance Engineers.
+                    In this practice, we had a company of 4 people, and we worked on the web-site using
+                    the <strong>ASP.Core framework</strong>. The project was designed from scratch for medical
+                    university that would allow
+                    student testing, and for this task was selected <strong>Onion architecture</strong>. <strong>Gitlab
+                      repositories</strong> we chose for
+                    <i>backend part</i> of the project when other team working on <i>frontend part</i> and use
+                    <strong>Bitbucket</strong>.</p>
+                </li>
+                <li>
+                  <p><em>February 2017</em></p>
+                  <p>Held a <i>3-week</i> practicing at the company <strong>Avivi</strong>. They create websites using
+                    <strong>Bitrix24</strong> and help integrate different <strong>CRM</strong> and <strong>accounting
+                      system 1C</strong>
+                    also except web-design they can <i>help with</i> <strong>SEO</strong> and <i>work in outsource</i>.
+                    Here I got to know the basics of <i>html, css , bootstrap, javascript (,little bit accounting
+                      system 1C)</i> and for the first time in my life i've created <i>landing page</i> using the
+                    provided template.</p>
+                </li>
+              </ul>
             </div>
             <div class="six wide column">
-              <!-- Languages -->
-              <!-- Skills -->
-              <!-- Character -->
-              <!-- Likes -->
-              <!-- Dislikes -->
-              <!-- Wants -->
-              <!-- Education -->
-              <!-- Articles -->
+              <section>
+                <h3>Languages</h3>
+                <p class="tags small"><span class="language" lang="ua">&#x1f1fa;&#x1f1e6; УКРАЇНСЬКА</span> <span
+                    class="language" lang="ru">&#x1f1f7;&#x1f1fa; РУССКИЙ</span> <span class="language"
+                    lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
+              </section>
+              <section>
+                <h3>Skills</h3>
+                <p class="tags small">Ability to ride a bicycle &#128690; (wo-o-ooow &#128526;), playing old school 2d
+                  platformers &#128640;, copy pasting from stack overflow (it`s a joke &#128514; , now Im trying to make
+                  it less).</p>
+              </section>
+              <section>
+                <h3>Character</h3>
+                <p class="tags small">Tall and thin, choleric and melancholic in one, purposeful, sometimes want to do
+                  everything at once (not the best trait, but work to fix that <strong>thank for tips from a LinkUp
+                    mentor &#128516;</strong>)</p>
+              </section>
+              <section>
+                <h3>Likes&#x1f603;</h3>
+                <p class="tags small">I really love different hobbies &#127912; (like drawing or solving rubick`s cube)
+                  , music diff type of genres &#127932; (&#127927;jazz, &#127929;lo-fi, &#127930;reggae <strong>Bob
+                    Marley</strong>,
+                  &#127925;instrumental <strong>Polyphia</strong>, &#127928;rock <strong>DragonForce</strong>, &#127908;
+                  pop <strong>The Weeknd</strong>, &#127911; rap but with meaning, like <strong>Eminem</strong> ),
+                  tasty food &#128523;, new update in software which i use (example: new
+                  version Android,Windows,iOS,MacOs, or new features in youtube music &#128558;, etc ). </p>
+              </section>
+              <section>
+                <h3>Dislikes&#x1f61e;</h3>
+                <p class="tags small">Exotic delicacies or some types of seafood, <strong>smokers in public
+                    places</strong>,
+                  irresponsibility among people, <i>when the party is over</i> &#128532;.</p>
+              </section>
+              <section>
+                <h3>Wants&#x1f97a;</h3>
+                <p class="tags small">improve myself (everyday learning something new
+                  &#127919;, follow the nutrition &#127813;, go in for sports &#127936;), find a girlfriend&#128105;,
+                  learn to play guitar&#127928; or piano &#127929;, become more charismatic &#128521;.</p>
+              </section>
+              <section>
+                <h3>Education</h3>
+                <ul class="timeline">
+                  <li class="highlighted">
+                    <div><em>1<sup>st</sup> September 2019 &ndash; present</em></div>
+                    <div>I get a complete higher education in <a href="https://lpnu.ua/" rel="external"><strong>NU
+                          LP</strong></a> (Lviv Polytechnic National University) - a <strong>master's degree</strong> in
+                      <strong>Cybersecurity</strong>.</div>
+                  </li>
+                  <li>
+                    <div><em>1<sup>st</sup> September 2017 &ndash; 21<sup>st</sup> June 2019</em></em></div>
+                    <div>I finished my studies in <a href="https://lpnu.ua/" rel="external"><strong>NU LP</strong></a>
+                      (Lviv Polytechnic National University) in the field of <strong>Software engineering</strong> at
+                      the higher education level - <strong>Baccalaureate</strong>.</div>
+                  </li>
+
+                  <li>
+                    <div><em>1<sup>st</sup> September 2013 &ndash; 21<sup>st</sup> June 2017</em></div>
+                    <div>I finished my studies in <a href="http://hpk.edu.ua/" rel="external"><strong>KPC</strong></a>
+                      (Khmelnitsky polytechnical college) in the field of <strong>Software engineering</strong> at the
+                      level of <strong>Junior specialist</strong>.</div>
+                  </li>
+                </ul>
+                <section>
+                  <h3>Articles</h3>
+                  <p>None published <sup><em>yet</em></sup></p>
+                </section>
+              </section>
             </div>
           </div>
         </div>
