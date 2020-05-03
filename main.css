@@ -1,0 +1,12 @@
+.contacts li a.instagram:hover {
+    color: #3b5998;
+  }
+
+  img{
+    width: 100%;
+}
+
+.age{
+  color:#3b5998;
+  font-weight:bold;
+}
