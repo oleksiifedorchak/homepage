@@ -10,3 +10,22 @@ img {
   color: #3b5998;
   font-weight: bold;
 }
+
+.avatar {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.grid>.row>[class*="three wide"].column {
+  width: 27% !important;
+}
+
+.grid>.row>[class*="thirteen wide"].column {
+  width: 73% !important;
+}
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+}
