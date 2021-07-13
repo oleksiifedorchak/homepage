@@ -25,6 +25,10 @@ img {
   border-radius: 50%;
 }
 
+div.three.wide.center{
+  display: flex;
+}
+
 .grid>.row>[class*="three wide"].column {
   width: 27% !important;
 }
